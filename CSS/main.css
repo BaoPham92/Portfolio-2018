@@ -2,7 +2,6 @@ body,
 html {
     font-size: 16px;
     line-height: 1.2em;
-
     /* Height and Width for landing page image to cover 100% */
     height: 100%;
     width: 100%;
@@ -19,20 +18,34 @@ h6 {
     font-family: "Lato", sans-serif;
 }
 
+/* header {
+    display: flex;
+    display: -webkit-flex;
+} */
+
 /* About Me Section */
 
 .about {
     text-align: center;
 }
 
-.aboutInformation {
+/* styling content for bottom of about me section */
 
+/* .aboutBottom serves as second half of "about me" container */
+
+.aboutBottom {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
 }
 
 /* Avatar Card */
 
 .aboutCardContainer {
-    padding: 25px 0;
+    display: block;
+    padding: 25px;
 }
 
 .aboutCard {
@@ -60,9 +73,32 @@ h6 {
     padding: 4px 16px;
 }
 
+/* Information div alongside avatar div */
+
+.aboutInformation {
+    border-top: 1px solid grey;
+    width: 40%;
+}
+
+.aboutInformation h3 {
+    text-align: center;
+}
+
+.aboutInformation ul {
+    margin-left: 70px;
+}
+
+.borderH1 {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 0 0 22px 0;
+}
+
 /* Grouping image classes for general parallax css */
 
-.parallaxImage1, .parallaxImage2, .parallaxImage3 {
+.parallaxImage1,
+.parallaxImage2,
+.parallaxImage3 {
     /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -75,7 +111,7 @@ h6 {
 .parallaxImage1 {
     /* Image for the first parallax */
     background-image: url("../Images/CafeMac_sml.jpg");
-
+    
     /* Image dimensions for full landing page coverage */
     height: 100%;
     width: 100%;
@@ -84,17 +120,15 @@ h6 {
 .parallaxImage2 {
     /* Image for second parallax */
     background-image: url("../Images/DesktopMac_sml.jpg");
-    
     /* Image dimensions */
-    height: 500px;
+    height: 450px;
     width: 100%;
 }
 
 .parallaxImage3 {
     /* Image for third parallax */
     background-image: url("../Images/NotebookMac_sml.jpg");
-
     /* Image dimensions */
-    height: 500px;
+    height: 450px;
     width: 100%;
 }
