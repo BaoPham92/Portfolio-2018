@@ -1,0 +1,56 @@
+body,
+html {
+    /* Height and Width for landing page image to cover 100% */
+    height: 100%;
+    width: 100%;
+}
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+/* Grouping each image for centering css */
+
+.parallaxImage1, .parallaxImage2, .parallaxImage3 {
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Images used for parallax */
+
+.parallaxImage1 {
+    /* Image for the first parallax */
+    background-image: url("./Images/CafeMac_sml.jpg");
+
+    /* Image dimensions for full landing page coverage */
+    height: 100%;
+    width: 100%;
+}
+
+.parallaxImage2 {
+    /* Image for second parallax */
+    background-image: url("./Images/DesktopMac_sml.jpg");
+    
+    /* Image dimensions */
+    height: 500px;
+    width: 100%;
+}
+
+.parallaxImage3 {
+    /* Image for third parallax */
+    background-image: url("./Images/NotebookMac_sml.jpg");
+
+    /* Image dimensions */
+    height: 500px;
+    width: 100%;
+}
