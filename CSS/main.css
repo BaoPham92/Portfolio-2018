@@ -1,5 +1,8 @@
 body,
 html {
+    font-size: 16px;
+    line-height: 1.2em;
+
     /* Height and Width for landing page image to cover 100% */
     height: 100%;
     width: 100%;
@@ -16,7 +19,48 @@ h6 {
     font-family: "Lato", sans-serif;
 }
 
-/* Grouping each image for centering css */
+/* About Me Section */
+
+.about {
+    text-align: center;
+}
+
+.aboutInformation {
+
+}
+
+/* Avatar Card */
+
+.aboutCardContainer {
+    padding: 25px 0;
+}
+
+.aboutCard {
+    box-shadow: 0 1.2px 8px 0 black;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.aboutCard:hover {
+    box-shadow: 0 4px 16px 0 black;
+}
+
+.aboutCard img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+    opacity: .8;
+}
+
+.aboutCard img:hover {
+    opacity: 1;
+}
+
+.containerCard {
+    padding: 4px 16px;
+}
+
+/* Grouping image classes for general parallax css */
 
 .parallaxImage1, .parallaxImage2, .parallaxImage3 {
     /* Parallax scrolling effect */
@@ -30,7 +74,7 @@ h6 {
 
 .parallaxImage1 {
     /* Image for the first parallax */
-    background-image: url("./Images/CafeMac_sml.jpg");
+    background-image: url("../Images/CafeMac_sml.jpg");
 
     /* Image dimensions for full landing page coverage */
     height: 100%;
@@ -39,7 +83,7 @@ h6 {
 
 .parallaxImage2 {
     /* Image for second parallax */
-    background-image: url("./Images/DesktopMac_sml.jpg");
+    background-image: url("../Images/DesktopMac_sml.jpg");
     
     /* Image dimensions */
     height: 500px;
@@ -48,7 +92,7 @@ h6 {
 
 .parallaxImage3 {
     /* Image for third parallax */
-    background-image: url("./Images/NotebookMac_sml.jpg");
+    background-image: url("../Images/NotebookMac_sml.jpg");
 
     /* Image dimensions */
     height: 500px;
