@@ -43,7 +43,6 @@ h6 {
     display: -webkit-flex;
     justify-content: center;
     align-items: center;
-    align-content: space-between;
 }
 
 /* Avatar Card */
@@ -67,7 +66,6 @@ h6 {
 .aboutCard img {
     max-width: 100%;
     border-radius: 5px 5px 0 0;
-    opacity: .8;
 }
 
 .aboutCard img:hover {
@@ -91,6 +89,7 @@ h6 {
 
 .aboutInformation ul {
     margin-left: 70px;
+    padding-bottom: 20px;
 }
 
 .aboutInformation p {
@@ -139,4 +138,29 @@ h6 {
     /* Image dimensions */
     height: 450px;
     width: 100%;
+}
+
+/* navbar styles */
+
+#navbar {
+    background-color: black;
+    position: fixed;
+    top: -50px;
+    left: -0.5px;
+    width: 100vw;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: black;
+    background-color: #ddd;
 }
