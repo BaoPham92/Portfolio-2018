@@ -26,7 +26,12 @@ h6 {
 /* About Me Section */
 
 .about {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
     text-align: center;
+    width: 50%;
+    margin: auto;
 }
 
 /* styling content for bottom of about me section */
@@ -76,7 +81,7 @@ h6 {
 /* Information div alongside avatar div */
 
 .aboutInformation {
-    border-top: 1px solid grey;
+    border-top: 1px solid rgb(220, 220, 220);
     width: 40%;
 }
 
@@ -88,8 +93,12 @@ h6 {
     margin-left: 70px;
 }
 
+.aboutInformation p {
+    text-align: center;
+}
+
 .borderH1 {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(220, 220, 220);
     text-align: center;
     padding: 0 0 22px 0;
 }
@@ -111,7 +120,6 @@ h6 {
 .parallaxImage1 {
     /* Image for the first parallax */
     background-image: url("../Images/CafeMac_sml.jpg");
-    
     /* Image dimensions for full landing page coverage */
     height: 100%;
     width: 100%;
