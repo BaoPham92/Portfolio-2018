@@ -178,8 +178,8 @@ i {
     /* Image for the first parallax */
     background-image: url("../Images/Parallax/CafeMac_sml.jpg");
     /* Image dimensions for full landing page coverage */
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 #parallaxImage2 {
