@@ -2,6 +2,9 @@
 
 .animateContainer {
     padding-top: 350px;
+    max-width: 100vw;
+    max-height: 100%;
+    font-size: 48px;
 }
 
 .landingAnimation {
@@ -13,7 +16,6 @@
 .landingAnimation p {
     display: inline-flex;
     font-family: "Lato", sans-serif;
-    font-size: 48px;
     color: white;
     margin: 0 15px;
     opacity: 0.0;

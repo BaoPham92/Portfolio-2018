@@ -163,7 +163,7 @@ i {
 /* Grouping image classes for general parallax css */
 
 .parallaxImage1,
-.parallaxImage2,
+#parallaxImage2,
 .parallaxImage3 {
     /* Parallax scrolling effect */
     background-attachment: fixed;
@@ -207,15 +207,16 @@ i {
     left: -0.5px;
     width: 100vw;
     transition: top 0.3s;
+    display: flex;
+    justify-content: center;
 }
 
 #navbar a {
-    float: left;
-    display: block;
     color: whitesmoke;
     padding: 15px;
     text-align: center;
     text-decoration: none;
+    width: 100%;
 }
 
 #navbar a:hover {
