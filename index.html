@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="parallaxImage1" alt="Decorative Parallax Image">
+    <div class="parallaxImage1" id="top" alt="Decorative Parallax Image">
         <!-- Welcome animation message for portfolio. -->
         <div class="animateContainer">
             <div class="landingAnimation">
@@ -65,7 +65,7 @@
     <div id="navbar">
         <a href="#top">Top</a>
         <a href="#contact">Contact</a>
-        <a href="resume">Resume</a>
+        <a href="#projects">Projects</a>
     </div>
 
     <header class="header">
@@ -110,7 +110,7 @@
         </section>
     </header>
 
-    <section class="projects">
+    <section id="projects">
         <div id="parallaxImage2" alt="Decorative Parallax Image">
             <!-- Multiple p tags for future keyframe additions. -->
             <div class="parallaxFade">
@@ -129,45 +129,54 @@
             <div class="projectCard">
                 <div class="ProjectCardInformation">
                     <h1>EunixForums</h1>
-
-                    <p>A full CRUD Ruby On Rails application representing a forum message boards. With the ability to sign up, sign in as a user you can post replies or submit posts. Comments are able to be edited amongts correct user credentials as well.</p>
+                    <p>A full CRUD Ruby On Rails application representing a forum message boards. With the ability to sign up,
+                        sign in as a user you can post replies or submit posts. Comments are able to be edited amongts correct
+                        user credentials as well.</p>
                 </div>
 
                 <div class="projectImage">
                     <!-- Todo: Create overlaying text on top image. -->
-                    <a target="_blank" href="https://damp-waters-28766.herokuapp.com/"><img src="./Images/ProjectImages/1.jpg"></a>
+                    <a target="_blank" href="https://damp-waters-28766.herokuapp.com/">
+                        <img src="./Images/ProjectImages/1.jpg">
+                    </a>
                 </div>
             </div>
 
             <div class="projectCard">
                 <div class="ProjectCardInformation">
                     <h1>JS Canvas Object manipulation</h1>
-
-                    <p>A small application demonstrating in the console collision detection of objects within the canvas element as well as wall collisions. Health calculation of object and player collision. Time indication of time spent before player loss health points.</p>
+                    <p>A small application demonstrating in the console collision detection of objects within the canvas element
+                        as well as wall collisions. Health calculation of object and player collision. Time indication of
+                        time spent before player loss health points.</p>
                 </div>
-        
+
                 <div class="projectImage">
                     <!-- Todo: Create overlaying text on top image. -->
-                    <a target="_blank" href="https://baopham92.github.io/Game_Experiment_1/"><img src="./Images/ProjectImages/3.jpg"></a>
+                    <a target="_blank" href="https://baopham92.github.io/Game_Experiment_1/">
+                        <img src="./Images/ProjectImages/3.jpg">
+                    </a>
                 </div>
             </div>
 
             <div class="projectCard">
                 <div class="ProjectCardInformation">
                     <h1>Project Simon</h1>
-
-                    <p>Simon is a JQuery game where a user will guess the correct color combination sequnce with the sprite animations using a custom CDN library MOTO. </p>
+                    <p>Simon is a JQuery game where a user will guess the correct color combination sequnce with the sprite
+                        animations using a custom CDN library MOTO. When a correct sequence is guessed, a popup winning message
+                        will appear.</p>
                 </div>
-        
+
                 <div class="projectImage">
                     <!-- Todo: Create overlaying text on top image. -->
-                    <a target="_blank" href="https://baopham92.github.io/Project-Simon/"><img src="./Images/ProjectImages/4.jpg"></a>
+                    <a target="_blank" href="https://baopham92.github.io/Project-Simon/">
+                        <img src="./Images/ProjectImages/4.jpg">
+                    </a>
                 </div>
             </div>
         </section>
     </section>
 
-    <section>
+    <section id="contact">
         <div class="parallaxImage3" alt="Decorative Parallax Image">
             <!-- Multiple p tags for future keyframe additions. -->
             <div class="parallaxFade">
@@ -180,7 +189,36 @@
                 <p>T</p>
             </div>
         </div>
-        <h1>Placeholder for "Contact Me Section"</h1>
+
+        <section class="contactContainer">
+            <div class="contact">
+                <a href="mailto:BaoPham92@yahoo.com">
+                    <img src="./Images/Icons/email.svg" alt="Image for email link">
+                </a>
+            </div>
+            <div class="contact">
+                <a href="https://github.com/BaoPham92">
+                    <img src="./Images/Icons/github2.svg" alt="Image for Github link">
+                </a>
+            </div>
+            <div class="contact">
+                <a href="https://www.linkedin.com/in/baopham92/">
+                    <img src="./Images/Icons/linkedin.svg" alt="Image for LinkedIn link">
+                </a>
+            </div>
+            <div class="contact">
+                <a href="tel:2404784196">
+                    <img src="./Images/Icons/phone.svg" alt="Image for phone number link">
+                </a>
+            </div>
+
+        </section>
+
+        <div class="icons">Icons made by
+            <a href="https://www.flaticon.com/authors/good-ware" title="Message">Message</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+            <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
     </section>
 
     <script src="main.js"></script>

@@ -129,13 +129,35 @@ header {
     border-radius: 5px 5px 0 0;
 }
 
-.projectCardInformation, h1 {
+.projectCardInformation,
+h1 {
     padding: 10px;
     border-bottom: 1px solid gray;
 }
 
-.projectCardInformation, i {
+.projectCardInformation,
+i {
     margin-right: 70%;
+}
+
+/* Contact Styles */
+
+.contactContainer {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact {
+    width: 10em;
+    margin: 25px;
+}
+
+/* Icon Styling and CREDITS to FaltIcon for the images */
+
+.icons {
+    text-align: center;
 }
 
 /* Grouping image classes for general parallax css */
