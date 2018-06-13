@@ -21,7 +21,7 @@ h6 {
 header {
     display: block;
     max-width: 1000px;
-    margin: auto;    
+    margin: auto;
 }
 
 /* About Me Section */
@@ -73,7 +73,7 @@ header {
     opacity: 1;
 }
 
-.containerCard {
+.aboutCardDescription {
     padding: 4px 16px;
 }
 
@@ -119,15 +119,15 @@ header {
 
 .parallaxImage1 {
     /* Image for the first parallax */
-    background-image: url("../Images/CafeMac_sml.jpg");
+    background-image: url("../Images/Parallax/CafeMac_sml.jpg");
     /* Image dimensions for full landing page coverage */
     min-height: 100%;
     min-width: 100%;
 }
 
-.parallaxImage2 {
+#parallaxImage2 {
     /* Image for second parallax */
-    background-image: url("../Images/DesktopMac_sml.jpg");
+    background-image: url("../Images/Parallax/DesktopMac_sml.jpg");
     /* Image dimensions */
     height: 450px;
     width: 100%;
@@ -135,7 +135,7 @@ header {
 
 .parallaxImage3 {
     /* Image for third parallax */
-    background-image: url("../Images/NotebookMac_sml.jpg");
+    background-image: url("../Images/Parallax/NotebookMac_sml.jpg");
     /* Image dimensions */
     height: 450px;
     width: 100%;
