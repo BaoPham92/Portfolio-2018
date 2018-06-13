@@ -37,19 +37,16 @@ header {
 
 /* styling content for bottom of about me section */
 
-/* .aboutBottom serves as second half of "about me" container */
+/* Avatar Card */
 
-.aboutBottom {
+.aboutContainer {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Avatar Card */
-
 .aboutCardContainer {
-    display: block;
     padding: 25px;
 }
 
@@ -101,6 +98,44 @@ header {
     border-bottom: 1px solid rgb(220, 220, 220);
     text-align: center;
     padding: 0 0 22px 0;
+}
+
+/* Project Cards */
+
+.projectContainer {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    text-align: center;
+}
+
+.projectCard {
+    box-shadow: 0 1.2px 8px 0 black;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 25px;
+    width: 500px;
+}
+
+.projectCard:hover {
+    box-shadow: 0 4px 16px 0 black;
+}
+
+.projectCard img {
+    max-width: 100%;
+    box-shadow: 0 1.2px 8px 0 black;
+    border-radius: 5px 5px 0 0;
+}
+
+.projectCardInformation, h1 {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.projectCardInformation, i {
+    margin-right: 70%;
 }
 
 /* Grouping image classes for general parallax css */
