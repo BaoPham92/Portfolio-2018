@@ -5,6 +5,7 @@ html {
     /* Height and Width for landing page image to cover 100% */
     height: 100%;
     width: 100%;
+    margin: 0;
 }
 
 body,
@@ -204,7 +205,6 @@ i {
     background-color: black;
     position: fixed;
     top: -50px;
-    left: -0.5px;
     width: 100vw;
     transition: top 0.3s;
     display: flex;
