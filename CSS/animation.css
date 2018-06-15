@@ -1,19 +1,19 @@
 /* Landing page animation CSS */
 
-.animateContainer {
+.animate-container {
     padding-top: 350px;
     min-width: 100vw;
     min-height: 100%;
     font-size: 48px;
 }
 
-.landingAnimation {
+.landing-animation {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.landingAnimation p {
+.landing-animation p {
     display: inline-flex;
     font-family: "Lato", sans-serif;
     color: white;
@@ -24,7 +24,7 @@
 
 /* Fade text animation effect for the last 2 parallax images */
 
-.parallaxFade {
+.parallax-fade {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@
     font-size: 60px;
 }
 
-.parallaxFade p {
+.parallax-fade p {
     display: inline-flex;
     font-family: "Lato", sans-serif;
     color: white;
@@ -84,7 +84,7 @@
 }
 
 .animate p:nth-of-type(8) {
-    animation-delay: 0.8s
+    animation-delay: 0.8s-
 }
 
 .animate p:nth-of-type(9) {

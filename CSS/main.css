@@ -40,62 +40,62 @@ header {
 
 /* Avatar Card */
 
-.aboutBottom {
+.about-bottom {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     align-items: center;
 }
 
-.aboutCardContainer {
+.about-card-container {
     padding: 25px;
 }
 
-.aboutCard {
+.about-card {
     box-shadow: 0 1.2px 8px 0 black;
     transition: 0.3s;
     border-radius: 5px;
     width: 300px;
 }
 
-.aboutCard:hover {
+.about-card:hover {
     box-shadow: 0 4px 16px 0 black;
 }
 
-.aboutCard img {
+.about-card img {
     max-width: 100%;
     border-radius: 5px 5px 0 0;
 }
 
-.aboutCard img:hover {
+.about-card img:hover {
     opacity: 1;
 }
 
-.aboutCardDescription {
+.about-card-description {
     padding: 4px 16px;
 }
 
 /* Information div alongside avatar div */
 
-.aboutInformation {
+.about-information {
     border-top: 1px solid rgb(220, 220, 220);
     width: 70%;
 }
 
-.aboutInformation h3 {
+.about-information h3 {
     text-align: center;
 }
 
-.aboutInformation ul {
+.about-information ul {
     margin-left: 70px;
     padding-bottom: 20px;
 }
 
-.aboutInformation p {
+.about-information p {
     text-align: center;
 }
 
-.borderH1 {
+.border-H1 {
     border-bottom: 1px solid rgb(220, 220, 220);
     text-align: center;
     padding: 0 0 22px 0;
@@ -103,7 +103,7 @@ header {
 
 /* Project Cards */
 
-.projectContainer {
+.project-container {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
@@ -112,7 +112,7 @@ header {
     text-align: center;
 }
 
-.projectCard {
+.project-card {
     box-shadow: 0 1.2px 8px 0 black;
     transition: 0.3s;
     border-radius: 5px;
@@ -120,30 +120,24 @@ header {
     width: 500px;
 }
 
-.projectCard:hover {
+.project-card:hover {
     box-shadow: 0 4px 16px 0 black;
 }
 
-.projectCard img {
+.project-card img {
     max-width: 100%;
     box-shadow: 0 1.2px 8px 0 black;
     border-radius: 5px 5px 0 0;
+    margin-bottom: -9px;
 }
 
-.projectCardInformation,
-h1 {
-    padding: 10px;
-    border-bottom: 1px solid gray;
-}
-
-.projectCardInformation,
-i {
-    margin-right: 70%;
+.project-image {
+    /* TODO: Create overlaying titles */
 }
 
 /* Contact Styles */
 
-.contactContainer {
+.contact-container {
     display: flex;
     display: -webkit-flex;
     justify-content: space-around;
@@ -163,9 +157,9 @@ i {
 
 /* Grouping image classes for general parallax css */
 
-.parallaxImage1,
-#parallaxImage2,
-.parallaxImage3 {
+.parallax-image1,
+#parallax-image2,
+.parallax-image3 {
     /* Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -175,7 +169,7 @@ i {
 
 /* Images used for parallax */
 
-.parallaxImage1 {
+.parallax-image1 {
     /* Image for the first parallax */
     background-image: url("../Images/Parallax/CafeMac_sml.jpg");
     /* Image dimensions for full landing page coverage */
@@ -183,7 +177,7 @@ i {
     min-width: 100%;
 }
 
-#parallaxImage2 {
+#parallax-image2 {
     /* Image for second parallax */
     background-image: url("../Images/Parallax/DesktopMac_sml.jpg");
     /* Image dimensions */
@@ -191,7 +185,7 @@ i {
     width: 100%;
 }
 
-.parallaxImage3 {
+.parallax-image3 {
     /* Image for third parallax */
     background-image: url("../Images/Parallax/NotebookMac_sml.jpg");
     /* Image dimensions */
