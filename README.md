@@ -17,6 +17,6 @@ There are to do comments that will be in class named divs. So far as I am buildi
 
 I would like to give credit and thanks to the following resources.
 
-- Udacity's active community and support.
-- W3Schools for providing explaination on building components.
-- StackOverflow and their community for the in depth library of answers and troubleshooting aid.
+- [Udacity's](https://discussions.udacity.com/) active community and support.
+- [W3Schools](https://www.w3schools.com/default.asp) for providing explaination on building components.
+- [StackOverflow](https://stackoverflow.com/) and their community for the in depth library of answers and troubleshooting aid.
