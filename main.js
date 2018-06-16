@@ -5,5 +5,5 @@ var nav = document.getElementById("navbar");
 window.onscroll = function () { navAppear() };
 
 function navAppear() {
-    (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) ? nav.style.top = "0" : nav.style.top = "-50px";
+    (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) ? nav.style.top = "0" : nav.style.top = "-80px";
 }
