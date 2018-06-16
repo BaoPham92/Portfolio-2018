@@ -3,12 +3,12 @@
 /* Landing animation */
 
 @media screen and (max-width: 320px) {
+    .animate-container {
+        top: 4.5em;
+    }
     .landing-animation p {
         font-size: .2em;
         margin: 0;
-    }
-    .animate-container {
-        padding-top: 200px;
     }
     .parallax-fade {
         font-size: 1.3em;
@@ -21,7 +21,7 @@
         margin: 0;
     }
     .animate-container {
-        padding-top: 260px;
+        top: 5.99em;
     }
     .parallax-fade {
         font-size: 1.6em
@@ -34,7 +34,7 @@
         margin: 0;
     }
     .animate-container {
-        padding-top: 275px;
+        top: 6.2em;
     }
     .parallax-fade {
         font-size: 2em;
@@ -51,54 +51,139 @@
     }
 }
 
+@media screen and (min-width: 568px) and (max-width: 568px) {
+    .animate-container {
+        top: 2em;
+    }
+
+    .landing-animation p {
+        font-size: .5em;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 640px) {
+    .animate-container {
+        top: 2.4em;
+    }
+
+    .landing-animation p {
+        font-size: .5em;
+    }
+}
+
+@media screen and (min-width: 667px) and (max-width: 667px) {
+    .animate-container {
+        top: 2.2em;
+    }
+
+    .landing-animation p {
+        font-size: .6em;
+    }
+}
+
 @media screen and (min-width: 700px) and (max-width: 799px) {
     .landing-animation p {
         font-size: .8em;
         margin: 0;
     }
     .animate-container {
-        padding-top: 350px;
+        top: 8em;
     }
     .parallax-fade {
         font-size: 4em;
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .landing-animation {
-        font-size: 1.1em;
-        margin: 0 15px;
+@media screen and (min-width: 731px) and (max-width: 731px) {
+    .animate-container {
+        top: 2.8em;
     }
 
+    .landing-animation p {
+        font-size: .6em;
+    }
+}
+
+@media screen and (min-width: 736px) and (max-width: 736px) {
     .animate-container {
-        padding-top: 
+        top: 2.8em;
+    }
+
+    .landing-animation p {
+        font-size: .7em;
     }
 }
 
 @media screen and (min-width: 800px) {
     .landing-animation p {
-        font-size: .9em;
+        font-size: .85em;
         margin: 0;
     }
     .animate-container {
-        padding-top: 375px;
+        top: 6.5em;
     }
     .parallax-fade {
-        font-size: 6em;
+        font-size: 4.8em;
+    }
+}
+
+@media screen and (min-width: 812px) and (max-width: 812px) {
+    .animate-container {
+        top: 2.2em;
+    }
+}
+
+@media screen and (min-width: 823px) and (max-width: 823px) {
+    .animate-container {
+        top: 2.8em;
+    }
+
+    .landing-animation p {
+        font-size: .8em;
     }
 }
 
 @media screen and (min-width: 950px) {
-    .landing-Animation p {
+    .landing-animation p {
         font-size: 1.1em;
         margin: 0 2px;
+    }
+
+    .animate-container {
+        top: 12em;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+    .animate-container {
+        top: 6.8em;
+    }
+
+    .landing-animation p {
+        font-size: .95em;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .landing-animation {
+        font-size: 1.1em;
+        margin: 0 15px;
+    }
+    .animate-container {
+        top: 9em;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1366px) {
+    .landing-animation p {
+        font-size: 1.2em;
     }
 }
 
 /* Breakpoints for general styling */
 
 @media screen and (max-width: 500px) {
-    .project-Card {
+    .project-card {
         max-width: 90%;
     }
 }
@@ -108,13 +193,13 @@
     html {
         line-height: 1.6em;
     }
-    .about-Bottom {
+    .about-bottom {
         flex-direction: column;
     }
-    .about-Information ul {
+    .about-information ul {
         margin-left: 0;
     }
-    .project-Container {
+    .project-container {
         flex-direction: column;
         height: 100%;
     }
@@ -126,17 +211,17 @@
         line-height: 1.6em;
         font-size: 1.25em;
     }
-    .about-Bottom {
+    .about-bottom {
         flex-direction: column;
     }
-    .about-Information ul {
+    .about-information ul {
         margin: 0;
     }
-    .project-Container {
+    .project-container {
         flex-direction: column;
         height: 100%;
     }
-    .project-Card {
+    .project-card {
         max-width: 100%;
     }
 }

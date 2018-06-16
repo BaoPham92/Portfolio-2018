@@ -48,7 +48,7 @@ header {
 }
 
 .about-card-container {
-    padding: 25px;
+    /* TODO: Overlaying text divs. */
 }
 
 .about-card {
@@ -117,7 +117,7 @@ header {
     transition: 0.3s;
     border-radius: 5px;
     margin: 25px;
-    width: 500px;
+    max-width: 100%;
 }
 
 .project-card:hover {

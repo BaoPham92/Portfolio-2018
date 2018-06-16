@@ -8,3 +8,7 @@ There is already a portfolio built and this is going to be rebuilt upon the orig
 ## Objective:
 
 This is going to be the official repository for my portfolio. This repository will be maintained and updated until activity updated on project's activity on this ReadMe file.
+
+## TODO's:
+
+There are to do comments that will be in class named divs. So far as I am building a functional responsive design, I will then use these containers in the future for more effects.

@@ -1,7 +1,9 @@
 /* Landing page animation CSS */
 
 .animate-container {
-    padding-top: 350px;
+    /* padding-top: 350px; */
+    position: relative;
+    top: 8em;
     min-width: 100vw;
     min-height: 100%;
     font-size: 48px;
