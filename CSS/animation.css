@@ -58,67 +58,67 @@
 /*First animate p tags */
 
 .animate p:nth-of-type(1) {
-    animation-delay: 0.1s
+    animation-delay: 0.1s;
 }
 
 .animate p:nth-of-type(2) {
-    animation-delay: 0.2s
+    animation-delay: 0.2s;
 }
 
 .animate p:nth-of-type(3) {
-    animation-delay: 0.3s
+    animation-delay: 0.3s;
 }
 
 .animate p:nth-of-type(4) {
-    animation-delay: 0.4s
+    animation-delay: 0.4s;
 }
 
 .animate p:nth-of-type(5) {
-    animation-delay: 0.5s
+    animation-delay: 0.5s;
 }
 
 .animate p:nth-of-type(6) {
-    animation-delay: 0.6s
+    animation-delay: 0.6s;
 }
 
 .animate p:nth-of-type(7) {
-    animation-delay: 0.7s
+    animation-delay: 0.7s;
 }
 
 .animate p:nth-of-type(8) {
-    animation-delay: 0.8s-
+    animation-delay: 0.8s;
 }
 
 .animate p:nth-of-type(9) {
-    animation-delay: 0.9s
+    animation-delay: 0.9s;
 }
 
 .animate p:nth-of-type(10) {
-    animation-delay: 0.10s
+    animation-delay: 0.10s;
 }
 
 .animate p:nth-of-type(11) {
-    animation-delay: 0.11s
-}
+    animation-delay: 0.11s;
+};
 
 .animate p:nth-of-type(12) {
-    animation-delay: 0.12s
+    animation-delay: 0.12s;
 }
 
 .animate p:nth-of-type(13) {
-    animation-delay: 0.13s
+    animation-delay: 0.13s;
 }
 
 .animate p:nth-of-type(14) {
-    animation-delay: 0.14s
+    animation-delay: 0.14s;
 }
 
 .animate p:nth-of-type(15) {
-    animation-delay: 0.15s
+    animation-delay: 0.15s;
 }
 
 .animate p:nth-of-type(16) {
-    animation-delay: 0.16s
+    animation-delay: 0.16s;
 }
 
 .animate p:nth-of-type(17) {
@@ -126,63 +126,63 @@
 }
 
 .animate p:nth-of-type(18) {
-    animation-delay: 0.18s
+    animation-delay: 0.18s;
 }
 
 .animate p:nth-of-type(19) {
-    animation-delay: 0.19s
+    animation-delay: 0.19s;
 }
 
 .animate p:nth-of-type(20) {
-    animation-delay: 0.20s
+    animation-delay: 0.20s;
 }
 
 /*Second animate p tags */
 
 .animate2 p:nth-of-type(1) {
-    animation-delay: 2.4s
+    animation-delay: 2.4s;
 }
 
 .animate2 p:nth-of-type(2) {
-    animation-delay: 2.5s
+    animation-delay: 2.5s;
 }
 
 .animate2 p:nth-of-type(3) {
-    animation-delay: 2.6s
+    animation-delay: 2.6s;
 }
 
 .animate2 p:nth-of-type(4) {
-    animation-delay: 2.7s
+    animation-delay: 2.7s;
 }
 
 .animate2 p:nth-of-type(5) {
-    animation-delay: 2.8s
+    animation-delay: 2.8s;
 }
 
 .animate2 p:nth-of-type(6) {
-    animation-delay: 2.9s
+    animation-delay: 2.9s;
 }
 
 /*Third animate p tags */
 
 .animate3 p:nth-of-type(1) {
-    animation-delay: 4.1s
+    animation-delay: 4.1s;
 }
 
 .animate3 p:nth-of-type(2) {
-    animation-delay: 4.3s
+    animation-delay: 4.3s;
 }
 
 .animate3 p:nth-of-type(3) {
-    animation-delay: 4.5s
+    animation-delay: 4.5s;
 }
 
 .animate3 p:nth-of-type(4) {
-    animation-delay: 4.7s
+    animation-delay: 4.7s;
 }
 
 .animate3 p:nth-of-type(5) {
-    animation-delay: 4.9s
+    animation-delay: 4.9s;
 }
 
 /* Animations */

@@ -28,8 +28,6 @@ header {
 /* About Me Section */
 
 .about {
-    display: flex;
-    display: -webkit-flex;
     flex-direction: column;
     text-align: center;
     width: 80%;
@@ -42,7 +40,6 @@ header {
 
 .about-bottom {
     display: flex;
-    display: -webkit-flex;
     justify-content: center;
     align-items: center;
 }
@@ -81,9 +78,6 @@ header {
 .about-information {
     border-top: 1px solid rgb(220, 220, 220);
     width: 70%;
-}
-
-.about-information h3 {
     text-align: center;
 }
 
@@ -196,6 +190,12 @@ header {
 
 /* navbar styles */
 
+/* 
+navbar setup as a ID as .getElementsByClassName does 
+grab navbar as a class, however Javascript renders the css 'top'
+property as undefined when changed to class.
+*/
+
 #navbar {
     background-color: black;
     position: fixed;
@@ -204,6 +204,7 @@ header {
     transition: top 0.3s;
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 #navbar a {
