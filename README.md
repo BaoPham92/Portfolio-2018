@@ -13,6 +13,12 @@ This is going to be the official repository for my portfolio. This repository wi
 
 There are to do comments that will be in class named divs. So far as I am building a functional responsive design, I will then use these containers in the future for more effects.
 
+## Links to improve in certain areas:
+
+- [Viewport Sized Typography](https://css-tricks.com/viewport-sized-typography/)
+
+- [Understanding the difference between mobile-first, adaptive and responsive design](http://fredericgonzalo.com/en/2017/03/01/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/)
+
 ## Credits | Sources
 
 I would like to give credit and thanks to the following resources.
