@@ -3,10 +3,8 @@
 .animate-container {
     /* padding-top: 350px; */
     position: relative;
-    top: 8em;
-    min-width: 100vw;
-    min-height: 100%;
-    font-size: 48px;
+    top: 30vh;
+    font-size: 3.5vmin;
 }
 
 .landing-animation {
@@ -18,10 +16,10 @@
 .landing-animation p {
     display: inline-flex;
     font-family: "Lato", sans-serif;
+    font-size: 2.5vmin;
     color: white;
-    margin: 0 15px;
+    margin: 0 .5vmin;
     opacity: 0.0;
-    padding-top: 15px;
 }
 
 /* Fade text animation effect for the last 2 parallax images */
@@ -31,7 +29,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    font-size: 60px;
+    font-size: 8vmin;
 }
 
 .parallax-fade p {
@@ -99,8 +97,9 @@
 
 .animate p:nth-of-type(11) {
     animation-delay: 0.11s;
-};
+}
 
+;
 .animate p:nth-of-type(12) {
     animation-delay: 0.12s;
 }
