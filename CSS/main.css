@@ -87,9 +87,13 @@ header {
     text-align: center;
 }
 
+.about-information li {
+    margin: 5px 0 5px 0;
+}
+
 .about-information ul {
     padding-bottom: 20px;
-    list-style-type: none;
+    padding: 0;
 }
 
 .about-information p {
@@ -119,6 +123,10 @@ header {
     border-radius: 5px;
     margin: 25px;
     max-width: 600px;
+}
+
+.project-card p {
+    margin: auto;
 }
 
 .project-card:hover {
