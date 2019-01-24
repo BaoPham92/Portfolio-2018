@@ -55,6 +55,7 @@ header {
 }
 
 .about-card {
+    position: relative;
     box-shadow: 0 1.2px 8px 0 black;
     transition: 0.3s;
     border-radius: 5px;
@@ -75,8 +76,36 @@ header {
 }
 
 .about-card-description {
+    position: relative;
     padding: 0px 16px;
     text-align: center;
+}
+
+.about-card-description span {
+    margin-top: 10px;
+}
+
+.about-card-description h4,
+p,
+ul {
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.about-card-description h4 {
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.about-card-description p {
+    padding: 5px;
+}
+
+.about-card-description ul {
+    margin: 0 0 0 60px;
+}
+
+.about-card-description li {
+    text-align: initial;
 }
 
 /* Information div alongside avatar div */
@@ -103,7 +132,8 @@ header {
 .border-H1 {
     border-bottom: 1px solid rgb(220, 220, 220);
     text-align: center;
-    padding: 0 0 22px 0;
+    padding: 0 0 13px 0;
+    line-height: 1.6em;
 }
 
 /* Project Cards */
