@@ -60,6 +60,7 @@ header {
     transition: 0.3s;
     border-radius: 5px;
     width: 300px;
+    margin-bottom: 20px;
 }
 
 .about-card:hover {
