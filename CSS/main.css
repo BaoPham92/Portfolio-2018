@@ -152,6 +152,7 @@ ul {
 }
 
 .project-card {
+    position: relative;
     box-shadow: 0 1.2px 8px 0 black;
     transition: 0.3s;
     border-radius: 5px;
@@ -175,7 +176,8 @@ ul {
 }
 
 .project-image {
-    /* TODO: Create overlaying titles */
+    position: absolute;
+    bottom: 0;
 }
 
 /* Contact Styles */
