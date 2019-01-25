@@ -91,6 +91,7 @@ p,
 ul {
     margin: 0;
     padding: 10px 0 10px 0;
+    /* list-style-position: inside; */
 }
 
 .about-card-description h4 {
@@ -119,9 +120,11 @@ ul {
 
 .about-information li {
     margin: 5px 0 5px 0;
+    text-align: left;
 }
 
 .about-information ul {
+    display: inline-block;
     padding-bottom: 20px;
     padding: 0;
 }
