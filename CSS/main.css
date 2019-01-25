@@ -175,6 +175,11 @@ ul {
     margin-bottom: -9px;
 }
 
+.project-card a {
+    /* position: absolute;
+    bottom: 0; */
+}
+
 /* Contact Styles */
 
 .contact-container {
