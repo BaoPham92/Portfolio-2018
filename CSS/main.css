@@ -175,9 +175,9 @@ ul {
     margin-bottom: -9px;
 }
 
-.project-image {
-    position: absolute;
-    bottom: 0;
+.project-card a {
+    /* position: absolute;
+    bottom: 0; */
 }
 
 /* Contact Styles */
